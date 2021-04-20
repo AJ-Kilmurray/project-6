@@ -1,0 +1,97 @@
+:root {
+    --color-black: #000;
+    --color-lightblack: #191919;
+    --color-white: #fff;
+}
+
+* {
+    font-family: Poppins;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: var(--color-white);
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+#navbar {
+    background-color: var(--color-lightblack);
+    width:100%;
+}
+
+#nav-items {
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    width:80%;
+    align-items: center;
+}
+
+#page-title {
+    color: var(--color-white);
+    font-size:24px;
+}
+
+#navigation {
+    display:flex;
+}
+
+.list {
+    padding-left:25px;
+}
+
+a {
+    color: var(--color-white);
+    font-size:24px;
+}
+
+.current-link {
+    font-weight: 600;
+}
+
+#content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:300px;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+}
+
+#text {
+    background-color: var(--color-white);
+    position: absolute;
+    border-radius: 20px;
+    padding:0px 35px;
+    box-shadow: 0px 0px 20px 2px var(--color-black);
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: 82px;
+    text-align:center;
+}
+
+#color {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-shadow: 0px 0px 2px var(--color-black);
+}
+
+#button-container {
+    display:flex;
+    justify-content: center;
+    margin-bottom:30px;
+}
+
+#btn {
+    padding:10px;
+}
