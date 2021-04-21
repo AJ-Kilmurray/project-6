@@ -2,7 +2,7 @@
 Extremely basic color generator, for both HEX &amp; CSS color properties. The goal was to practice using Javascript for the second time. HTML &amp; CSS were not the focus.
 
 ## Description
-After learning JavaScript for a few days, I decided to try out a very basic first project. Within a couple of hours, I managed to complete the task. From there, I moved onto my next project with condfidence and a stronger understanding of both programming and JavaScript.
+After my second project, I decided to start a color generator the next day. It includes both regular colors and HEX color codes.
 
 ### What I learned about JavaScript
 I learned some essential skills within this small project.
